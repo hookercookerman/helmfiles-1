@@ -23,7 +23,7 @@ releases:
     vendor: "kubernetes-incubator"
     default: "true"
   chart: "stable/external-dns"
-  version: "1.7.4"
+  version: "1.7.7"
   wait: true
   installed: {{ env "EXTERNAL_DNS_INSTALLED" | default "true" }}
   values:
